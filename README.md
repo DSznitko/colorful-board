@@ -1,2 +1,2 @@
 # colorful-board
- app who does paint squares where you can set squares color, transition-duration and color saturation
+an application that generates random colors for squares with the function of color change, transparency and animation speed
