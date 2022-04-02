@@ -1,0 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  background-color: #333;
+  min-height: 100vh; 
+}
+
+h2 {
+  margin-bottom: 1em;
+  color: #fff;
+  text-align: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3em;
+}
+
+.buttons-group {
+  margin: 0 3em;
+}
+
+.btn {
+  padding: 1em 2em;
+  margin: 0 1em;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  color: #fff;
+  background: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+
+.btn:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.slider-box {
+  margin-bottom: 2em;
+  color: #fff;
+  font-size: 18px;
+}
+
+#slider {
+  margin-bottom: .5em;
+  width: 400px;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  flex-wrap: wrap;
+}
+
+.square {
+  margin: 3px;
+  height: 32px;
+  width: 32px;
+  border: 1px solid #000;
+  border-radius: 6px;
+  transition-property: background-color;
+  transition-duration: 3s;
+}
+
+.square:hover {
+  transition-duration: 0s !important;
+}
